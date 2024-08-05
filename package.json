@@ -1,0 +1,22 @@
+{
+  "name": "dockertest",
+  "version": "1.0.0",
+  "description": "Repository made to learn about the different fields in package.json and tsconfig.json files by testing them. Also test docker options",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/server.ts",
+    "start": "node ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "JD",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
